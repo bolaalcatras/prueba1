@@ -16,9 +16,9 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // User::factory(10)->create();
-        $this->call(LibrarySeeder::class);
-        $this->call(ThemeSeeder::class);
-        $this->call(BookcaseSeeder::class);
+      //  $this->call(LibrarySeeder::class);
+        //$this->call(ThemeSeeder::class);
+        //$this->call(BookcaseSeeder::class);
 
         User::factory()->create([
             'name' => 'Test User',

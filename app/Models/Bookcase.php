@@ -20,4 +20,7 @@ class Bookcase extends Model
     public function themes (){
         return $this->belongsToMany('App\Models\Theme');
     }
+    public function copies(){
+        return $this->hasMany('App\Models\Copy');
+    }
 }

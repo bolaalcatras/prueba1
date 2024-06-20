@@ -13,6 +13,6 @@ class BookcaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Bookcase::factory()->count(25)->create();
+       // Bookcase::factory()->count(25)->create();
     }
 }

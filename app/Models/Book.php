@@ -15,4 +15,7 @@ class Book extends Model
     public function author (){
         return $this->belongsTo('App\Models\Author');
     }
+    public function copies(){
+        return $this->hasMany('App\Models\Copy');
+    }
 }
